@@ -1,9 +1,12 @@
 {% extends "base.html" %}
+<link href="{{ url_for('static', filename='css/app.css') }}" rel="stylesheet">
 
 {% block main %}
-<img src="{{url_for('static', filename='app/static/profile.png')}}" />
+<div class="center">
+<img src="{{url_for('static', filename='profile.jpg')}}" />
 <h4>Joevel Edwards</h4>
 <p>@joeveledwards</p>
 <p>Kingston, Jamaica</p>
-<p>joined Feburary, {{ moment().format('YYYY') }}</p>
+<p>joined Feburary, 2019</p>
+</div>
 {% endblock %}

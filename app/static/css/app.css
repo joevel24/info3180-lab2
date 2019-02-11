@@ -1,3 +1,20 @@
 body {
     padding-top: 5rem;
+    
+}
+
+.center {
+    text-align: center;
+    border: 2px solid #000;
+    background-color: #3CB371;
+    opacity: 0.9;
+}
+
+.center h4, p {
+    color: #fff;
+}
+
+img {
+    border-radius: 2%;
+    width: 25%;
 }
