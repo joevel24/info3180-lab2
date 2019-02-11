@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block main %}
+<img src="{{url_for('static', filename='app/static/profile.png')}}" />
+<h4>Joevel Edwards</h4>
+<p>@joeveledwards</p>
+<p>Kingston, Jamaica</p>
+<p>joined Feburary, {{ moment().format('YYYY') }}</p>
+{% endblock %}
